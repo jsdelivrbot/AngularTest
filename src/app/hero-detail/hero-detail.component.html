@@ -1,0 +1,27 @@
+<div *ngIf="hero">
+  <h2> {{hero.alias | uppercase }} Details</h2>
+  
+  <div>
+    <label>ID: <input [(ngModel)]="hero.id" placeholder="ID">  </label>
+  </div>
+
+  <div>
+    <label>Alias: <input [(ngModel)]="hero.alias" placeholder="New alias"> </label>
+  </div>
+
+  <div>
+    <label>Real name: <input [(ngModel)]="hero.realname" placeholder="New real name"> </label>
+  </div>
+</div>
+
+
+
+
+<div class="ability-bar">
+  <app-ability-card class="ability" [attribute]=strAttribute> </app-ability-card> 
+  <app-ability-card class="ability" [attribute]=dexAttribute> </app-ability-card>
+  <app-ability-card class="ability" [attribute]=dexAttribute> </app-ability-card>
+  <app-ability-card class="ability" [attribute]=dexAttribute> </app-ability-card>
+  <app-ability-card class="ability" [attribute]=dexAttribute> </app-ability-card>
+  <app-ability-card class="ability" [attribute]=dexAttribute> </app-ability-card>
+</div>

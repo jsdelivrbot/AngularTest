@@ -1,0 +1,3 @@
+Dependencies: 
+  - Classes:
+      - Attribute.ts

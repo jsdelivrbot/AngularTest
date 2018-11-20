@@ -1,0 +1,40 @@
+.ability-card {
+  display: inline-block;
+  min-width: 75px;
+  max-width: 75px;
+  height: 80px;
+	text-align: center;
+	background: rgb(202, 224, 250);
+  border: 2px solid #747474;
+}
+
+.title {
+  
+  display: inline-block;
+  color: white;
+  
+  background-color: #607D8B;
+  
+  position: relative;
+  height: 1.3em;
+  width: 100%;
+}
+
+.modifier {
+	font-weight: 600;
+	font-size: 36px;
+	color: #747474;
+}
+
+.score {
+
+  font-size: 12px;
+  color: white;
+  background-color: #607D8B;
+  
+  padding: 4px 8px 1px 8px ;
+  border-radius: 4px 4px 0 0;
+}
+
+
+
